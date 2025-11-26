@@ -18,7 +18,7 @@ import pandas as pd
 import numpy as np
 from dotenv import load_dotenv
 
-from dhanhq import dhan
+from dhanhq.dhanhq import Dhan
 from src.data.dhan_vpn import get_5min_bars, donchian_channels, vpvr_nodes
 from src.indicators.ema_cross import ema_cross_signal
 from src.ai.infer import ai_direction, ai_confidence
